@@ -58,11 +58,6 @@ public class MainForm extends javax.swing.JFrame {
         });
 
         jTextField3.setText("jTextField3");
-        jTextField3.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jTextField3ActionPerformed(evt);
-            }
-        });
 
         jLabel3.setText("sonuç :");
 
@@ -127,13 +122,9 @@ public class MainForm extends javax.swing.JFrame {
         numericSonuc = sayi1 + sayi2;
        String stringSonuc = String.valueOf(numericSonuc);
       jTextField3.setText(stringSonuc);
-       
+     
 
     }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jTextField3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField3ActionPerformed
-                 // TODO add your handling code here:
-    }//GEN-LAST:event_jTextField3ActionPerformed
 
     /**
      * @param args the command line arguments
