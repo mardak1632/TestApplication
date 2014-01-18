@@ -126,7 +126,7 @@ public class MainForm extends javax.swing.JFrame {
         //  String.valueOf(sonuc);
         numericSonuc = sayi1 + sayi2;
        String stringSonuc = String.valueOf(numericSonuc);
-      jTextField3.setText();
+      jTextField3.setText(stringSonuc);
        
 
     }//GEN-LAST:event_jButton1ActionPerformed
